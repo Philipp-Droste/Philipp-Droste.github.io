@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff02f4b5.css",
-    "main.js": "/static/js/main.032dea08.js",
-    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
-    "index.html": "/index.html",
-    "main.ff02f4b5.css.map": "/static/css/main.ff02f4b5.css.map",
-    "main.032dea08.js.map": "/static/js/main.032dea08.js.map",
-    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/Philipp-Droste.github.io/static/css/main.ff02f4b5.css",
+    "main.js": "/Philipp-Droste.github.io/static/js/main.2bb06070.js",
+    "static/js/453.acca0757.chunk.js": "/Philipp-Droste.github.io/static/js/453.acca0757.chunk.js",
+    "index.html": "/Philipp-Droste.github.io/index.html",
+    "main.ff02f4b5.css.map": "/Philipp-Droste.github.io/static/css/main.ff02f4b5.css.map",
+    "main.2bb06070.js.map": "/Philipp-Droste.github.io/static/js/main.2bb06070.js.map",
+    "453.acca0757.chunk.js.map": "/Philipp-Droste.github.io/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff02f4b5.css",
-    "static/js/main.032dea08.js"
+    "static/js/main.2bb06070.js"
   ]
 }
