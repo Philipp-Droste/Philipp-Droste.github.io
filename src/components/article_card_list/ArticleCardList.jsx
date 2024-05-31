@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { loadArticleMetadatas } from './functions';
 import ArticleCard from '../article_card/ArticleCard.jsx';
 
-const ArticleCardList = ({ articleType }) => {
+const ArticleCardGrid = ({ articleType }) => {
     const [articleMetadatas, setArticleMetadatas] = useState([]);
 
     useEffect(() => {
@@ -14,14 +14,16 @@ const ArticleCardList = ({ articleType }) => {
     }, [articleType]);
 
     return (
-        <ul>
-            {articleMetadatas.map(articleMetadata => (
-                <li key={articleMetadata.id}>
-                    <ArticleCard {...articleMetadata} />
-                </li>
-            ))}
-        </ul>
+        <div class="container-fluid mt-3 ml-3">
+            <div class="row row-cols-1 row-cols-md-6 g-4">
+                {articleMetadatas.map(articleMetadata => (
+                    <div class="col">
+                        <ArticleCard {...articleMetadata} />
+                    </div>
+                ))}
+            </div>
+        </div>
     );
 };
 
-export default ArticleCardList;
+export default ArticleCardGrid;
